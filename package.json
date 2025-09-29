@@ -12,7 +12,7 @@
     "productivity",
     "communication"
   ],
-  "author": "Tên tác giả",
+  "author": "John Doe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
