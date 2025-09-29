@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.send('<h1>Ứng dụng Giải Pháp Làm Việc Từ Xa</h1>');
+  res.send('<h1>Remote Work Solutions Application</h1>');
 });
 
 io.on('connection', (socket) => {
